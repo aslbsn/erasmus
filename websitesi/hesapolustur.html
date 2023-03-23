@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.
+css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+        crossorigin="anonymous">
+  
+  
+           <link rel="stylesheet" href="style.css">
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <div class="b-example-divider"></div>
+
+    <div>
+
+
+        <header
+            class="d-flex flex-wrap align-items-center justify-content-center 
+justify-content-md-between py-3 border-bottom text-white">
+
+            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark 
+text-decoration-none">
+
+                <h6 id="yazi">1.ADIM-ERASMUS HESAP AÇILIŞI</h6>
+
+              
+            </a>
+
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 ">
+                <li><a href="anasayfa.html" class="nav-link px-2 link-secondary">Ana Sayfa</a></li>
+
+
+           
+                <li><a href="hakkimizda.html" class="nav-link px-2 link-dark">Hakkımızda</a></li>
+            </ul>
+
+            <div class="col-md-3 text-end px-4">
+                <a href="hesapgiris.html"> <button type="button"
+                        class="btn btn-outline-secondary me-2">Giriş</button></a>
+                <a href="hesapolustur.html"> <button type="button" class="btn 
+btn-secondary">Hesap Aç</button></a>
+            </div>
+        </header>
+
+    </div>
+
+
+
+
+ 
+
+
+    <section id="anasayfa">
+
+
+        <div class="row justify-content-center">
+            <div id="giris2" class="col-4">
+
+                <form>
+
+                    <h1 class="h3 mb-3 fw-normal">Hesap Oluştur</h1>
+<div>
+                    <div class="form-floating py-2">
+                        <input type="email" class="form-control" id="email" placeholder="Email adresinizi giriniz" required>
+                        <label for="floatingInput">Email adresinizi giriniz</label>
+                    </div>
+                    <div class="invalid-feedback">
+                        Boş bırakılamaz!
+                    </div>
+                </div>
+                <div>
+                    <div class="form-floating py-2">
+                        <input type="password" class="form-control" id="sifre" placeholder="Şifrenizi Giriniz">
+                        <label for="floatingPassword">Şifrenizi Giriniz</label>
+                    </div>
+                    <div class="invalid-feedback">
+                        Boş bırakılamaz!
+                    </div>
+                </div>
+                <div>
+                    <div class="form-floating py-2">
+                        <input type="password" class="form-control" id="reSifre" placeholder="Tekrar Şifrenizi Giriniz" required>
+                        <label for="floatingPassword">Tekrar Şifrenizi Giriniz</label>
+                    </div>
+                    <div class="invalid-feedback">
+                        Boş bırakılamaz!
+                    </div>
+                    </div>
+
+                </form>
+                <p id="sonuc"></p>
+                <button id="hesapbuton" onclick="hesapOlustur()" class="w-100 btn btn-lg btn-secondary">Hesap Oluştur</button>
+
+            </div>
+        </div>
+
+    </section>
+    
+
+    <footer class="mt-auto d-flex flex-wrap justify-content-center align-items-center border-top">
+
+        <a href="#"
+            class="col-md-4 d-flex align-items-center justify-content-start px-3 mb-3 mb-md-0 
+me-md-auto link-dark text-decoration-none">
+
+            <img src="img/logo.jpg" style="height: 40px; width: 40px; border-radius: 50%;">
+
+        </a>
+
+        <ul class="nav col-md-4 justify-content-center">
+
+
+            <li class="nav-item"><a href="#" class="nav-link px-2 ">KVKK</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 ">SSS</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 ">İletişim</a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+
+
+  
+
+</body>
+
+</html>

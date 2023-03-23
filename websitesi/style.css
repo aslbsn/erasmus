@@ -1,0 +1,122 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: antiquewhite;
+
+    z-index: 1;
+
+}
+
+
+
+
+#anasayfa {
+    align-items: center;
+    background-image: url("img/deen.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+
+
+
+}
+#giris{
+  
+background-color: antiquewhite;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+   position: absolute;
+   bottom: 180px;
+   right: 430px;
+  
+  
+
+}
+
+#hakkimizda {
+    width: 450px;
+    height: 300px;
+}
+
+#yazi{
+    padding-left: 10px;
+}
+
+#giris2{
+  
+    background-color: antiquewhite;
+        width: 500px;
+        height: 380px;
+        border-radius: 10px;
+       position: absolute;
+       bottom: 140px;
+       right: 430px;
+      
+      
+    
+    }
+
+footer {
+
+
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    background-color: #000;
+    color: white !important;
+ 
+ 
+
+}
+
+li>a {
+    color: white !important;
+    font-size: 20px;
+}
+
+i {
+    font-size: 60px;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+#basvuru {
+    padding-top: 15px;
+
+    align-items: center;
+    background-color: #f8fad7;
+    padding-bottom: 40px;
+}
+
+#basvurudivi {
+    background-color: #fadad7
+}
+
+
+#renk{
+    background-color: #f8fad7;
+}
+
+
+
+
+#buton {
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    margin-top: 80px;
+}
